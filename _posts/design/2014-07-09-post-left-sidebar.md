@@ -1,20 +1,22 @@
 ---
 layout: page
-sidebar: left
-subheadline: Templates
-title:  "Page/Post With Left Sidebar"
-teaser: "This is a example of page/post with a sidebar on the left."
+sidebar: right
+subheadline: 
+title:  "The origin and history of the World Cup"
+teaser: ""
 breadcrumb: true
 tags:
     - post format
 categories:
     - design
 image:
-    title: "unsplash_1.jpg"
+    thumb: "unsplash_2_thumb.jpg"
+    title: "unsplash_2.jpg"
     caption: Unsplash.com
     caption_url: http://unsplash.com
 ---
-*Feeling Responsive* shows metadata by default. The default behaviour can be changed via `config.yml`. To show metadata at the end of a page/post just add the following to front matter:
+## The origin of the World Cup
+*Feeling Responsive* shows metadata 안녕하세요. The default behaviour can be changed via `config.yml`. To show metadata at the end of a page/post just add the following to front matter:
 
 ~~~
 show_meta: true
@@ -27,6 +29,4 @@ show_meta: false
 ~~~
 
 
-## Other Post Formats
-{: .t60 }
-{% include list-posts.html tag='post format' %}
+## History of World Cup
