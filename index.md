@@ -37,8 +37,20 @@ header:
 </div><!-- /.row -->
 
 
+<div class="row">
+    <div class="medium-4 columns t30">
+    <img src="{{ site.url }}/images/unsplash_1.jpg" alt="">
+    </div><!-- /.medium-4.columns -->
 
+    <div class="medium-4 columns t30">
+      <img src="{{ site.url }}/images/unsplash_2.jpg" alt="">
+    </div><!-- /.medium-4.columns -->
 
+    <div class="medium-4 columns t30">
+      <img src="{{ site.url }}/images/unsplash_4.jpg" alt="">
+    </div><!-- /.medium-4.columns -->
+
+</div><!-- /.row -->
 
 
  [1]: http://foundation.zurb.com/docs/components/grid.html
