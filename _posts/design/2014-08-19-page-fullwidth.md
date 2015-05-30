@@ -1,55 +1,37 @@
 ---
-layout: page-fullwidth
-title:  "The Full-Width Page Template"
-subheadline:  "Multi-Device Layouts"
-teaser: "The full-width page format gives you all the space you need to show your content using the grid."
+layout: page
+subheadline: Templates
+title:  "The Post/Page Template"
+teaser: "The default template for posts and pages aligns the page beautifully in the middle. <strong>But</strong> you can customize posts/pages easily via switches in the front matter to <em>get a sidebar</em> and/or to <em>turn off meta-information</em> at the end of the page like categories, tags and dates."
+meta_teaser: "This is an example of a beautiful aligned post in the middle. There is no sidebar to distract the reader. The difference to the Page-Template is, that you find meta-information at the bottom of the post."
+breadcrumb: true
 categories:
     - design
-header:
-   image_fullwidth: "unsplash_leaf_header.jpg"
+tags:
+    - blog
+    - content
+    - post
+    - post format
+image:
+    title: "unsplash_1.jpg"
+    caption: Unsplash.com
+    caption_url: http://unsplash.com
+author: mo
 ---
-*Feeling Responsive* is built on Foundation. And of course, we make use of the wonderful grid system and so can you. Find out more about [constructing  beautiful layouts][1] in the foundation documentation.
+*Feeling Responsive* shows metadata by default. The default behaviour can be changed via `config.yml`. To show metadata at the end of a page/post just add the following to front matter:
 
-<div class="row">
-    <div class="medium-4 columns t30">
-    <img src="{{ site.url }}/images/unsplash_1.jpg" alt="">
-    </div><!-- /.medium-4.columns -->
+~~~
+show_meta: true
+~~~
 
-    <div class="medium-4 columns t30">
-      <img src="{{ site.url }}/images/unsplash_2.jpg" alt="">
-    </div><!-- /.medium-4.columns -->
+If you don't want to show metadata, it's simple again:
 
-    <div class="medium-4 columns t30">
-      <img src="{{ site.url }}/images/unsplash_4.jpg" alt="">
-    </div><!-- /.medium-4.columns -->
-
-</div><!-- /.row -->
+~~~
+show_meta: false
+~~~
 
 
-<div class="row">
-    <div class="medium-8 columns t30">
-    <img src="{{ site.url }}/images/unsplash_6.jpg" alt="">
-    </div><!-- /.medium-8.columns -->
+## Other Post Formats
+{: .t60 }
+{% include list-posts.html tag='post format' %}
 
-    <div class="medium-4 columns t30">
-      <img src="{{ site.url }}/images/unsplash_5.jpg" alt="">
-      <img class="t30" src="{{ site.url }}/images/unsplash_7.jpg" alt="">
-    </div><!-- /.medium-4.columns -->
-
-</div><!-- /.row -->
-
-
-
-
-
-
- [1]: http://foundation.zurb.com/docs/components/grid.html
- [2]: #
- [3]: #
- [4]: #
- [5]: #
- [6]: #
- [7]: #
- [8]: #
- [9]: #
- [10]: #
