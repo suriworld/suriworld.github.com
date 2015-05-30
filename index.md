@@ -5,7 +5,8 @@ categories:
 header:
    image_fullwidth: "unsplash_leaf_header.jpg"
 ---
-*Feeling Responsive* is built on Foundation. And of course, we make use of the wonderful grid system and so can you. Find out more about [constructing  beautiful layouts][1] in the foundation documentation.
+
+
 
 <div class="row">
     <div class="medium-4 columns t30">
