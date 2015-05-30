@@ -1,33 +1,34 @@
 ---
-layout: page
-sidebar: right
-subheadline: Templates
-title:  "Page/Post Right Sidebar"
-teaser: "This is a example of page/post with a sidebar on the right."
-breadcrumb: true
+layout: video
+show_meta: false
+title: "Video Template"
+subheadline: "Templates"
+teaser: "If you want to show videos in a large manner, the video template is the right choice."
 tags:
     - post format
 categories:
     - design
-image:
-    thumb: "unsplash_2_thumb.jpg"
-    title: "unsplash_2.jpg"
-    caption: Unsplash.com
-    caption_url: http://unsplash.com
+iframe: "<iframe width='970' height='546' src='//www.youtube.com/embed/WoHxoz_0ykI' frameborder='0' allowfullscreen></iframe>"
+#
+# These video settings are totally optional. It's only purpose
+# is SEO, so that videos show up in Google hopefully with a 
+# thumbnail.
+# More › https://developers.google.com/webmasters/videosearch/schema?hl=en&rd=1
+#
+# embedURL – A URL pointing to a player for the specific video.
+# contentURL – A URL pointing to the actual video media file
+# thumbnailUrl – A URL pointing to the video thumbnail image file.
+#
+video:
+    embedURL: "https://www.youtube.com/embed/WoHxoz_0ykI"
+    contentURL: "https://www.youtube.com/watch?v=WoHxoz_0ykI"
+    thumbnailUrl: "http://img.youtube.com/vi/WoHxoz_0ykI/maxresdefault.jpg"
 ---
-*Feeling Responsive* shows metadata by default. The default behaviour can be changed via `config.yml`. To show metadata at the end of a page/post just add the following to front matter:
 
-~~~
-show_meta: true
-~~~
+## About the video by Kutiman
 
-If you don't want to show metadata, it's simple again:
-
-~~~
-show_meta: false
-~~~
+> Ophir Kutiel, professionally known as Kutiman, is an Israeli musician, composer, producer and animator. He is best known for creating the online music video project, ThruYOU, and a self-titled album. <cite>[Wikipedia](http://en.wikipedia.org/wiki/Kutiman)</cite>
 
 
-## Other Post Formats
-{: .t60 }
-{% include list-posts.html tag='post format' %}
+
+Source: [Kutiman – Thru You Too – »Give It Up«](https://www.youtube.com/watch?v=WoHxoz_0ykI)
