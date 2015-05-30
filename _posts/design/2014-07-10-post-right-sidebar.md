@@ -6,7 +6,6 @@ subheadline: "Feeling Responsive Theme Changelog"
 teaser: "History and changelog of Feeling Responsive Theme"
 header:
    image_fullwidth: "header_unsplash_9.jpg"
-permalink: "/changelog/"
 ---
 2015-05-04 // Version 1.2.1
 :   Added `meta_title` to `<head>`. Use it in frontmatter for SEO purposes. 
