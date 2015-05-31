@@ -1,7 +1,7 @@
 ---
 layout: page
 subheadline: Templates
-title:  ""
+title:  "Exotic World Cup record"
 teaser: ""
 meta_teaser: ""
 categories:
