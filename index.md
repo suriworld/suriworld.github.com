@@ -47,7 +47,7 @@ header:
     </div><!-- /.medium-4.columns -->
 
     <div class="medium-4 columns t30">
-      <img src="{{ site.url }}/images/unsplash_12.jpg" alt="">
+      <img src="{{ site.url }}/images/unsplash_13.jpg" alt="">
     </div><!-- /.medium-4.columns -->
 
 </div><!-- /.row -->
