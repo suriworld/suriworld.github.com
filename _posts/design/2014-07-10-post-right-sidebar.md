@@ -1,11 +1,19 @@
 ---
 layout: page
-title: "Change is good!"
-meta_title: "Feeling Responsive Theme Changelog"
-subheadline: "Feeling Responsive Theme Changelog"
-teaser: "History and changelog of Feeling Responsive Theme"
+subheadline: 
+title:  "World Cup in Korea"
+teaser: ""
+breadcrumb: false
+tags:
+    - post format
+categories:
+    - design
+image:
+    thumb: "unsplash_7_thumb.jpg"
+    title: "unsplash_7.jpg"
+    caption: Unsplash.com
+    caption_url: http://unsplash.com
 ---
-
 
 
 
