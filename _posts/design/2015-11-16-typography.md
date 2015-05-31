@@ -14,8 +14,7 @@ tags:
     - post format
 image:
     title: "unsplash_2.jpg"
-    caption: Unsplash.com
-    caption_url: http://unsplash.com
+   
 author: mo
 ---
 
