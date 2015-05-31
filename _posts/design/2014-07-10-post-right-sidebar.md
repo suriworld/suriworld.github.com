@@ -13,6 +13,8 @@ image:
     title: "unsplash_7.jpg"
     caption: Unsplash.com
     caption_url: http://unsplash.com
+    comments: true
+    show_meta: false
 ---
 
 ### 2002 World Cup Best Goal
