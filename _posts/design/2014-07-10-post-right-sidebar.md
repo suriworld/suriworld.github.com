@@ -22,7 +22,7 @@ image:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mi6L2qzHt3M" frameborder="0" allowfullscreen></iframe>
 </dl>
 
-			<div id="disqus_thread"></div>
+<div id="disqus_thread"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
     var disqus_shortname = 'suriworld';
