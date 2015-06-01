@@ -10,7 +10,7 @@ header:
 
 <div class="row">
     <div class="medium-4 columns t30">
-     <a href="https://suriworld.github.io/design/grid/">{% if images/unsplash_1.jpg %}<img src="{{ site.url }}/images/unsplash_1.jpg" alt="">{% endif %}</a>
+     <a href="https://suriworld.github.io/design/grid/"><img src="{{ site.url }}/images/unsplash_1.jpg" alt=""></a>
     </div><!-- /.medium-4.columns -->
 
     <div class="medium-4 columns t30">
