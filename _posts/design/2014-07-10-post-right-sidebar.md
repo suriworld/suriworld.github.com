@@ -26,6 +26,7 @@ image:
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
     var disqus_shortname = 'suriworld';
+    var unique_id = '1'
     
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
@@ -44,7 +45,7 @@ image:
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
     var disqus_shortname = 'suriworld';
-    
+    var unique_id = '2'
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
