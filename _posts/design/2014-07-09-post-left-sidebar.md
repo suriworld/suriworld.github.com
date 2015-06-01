@@ -1,6 +1,6 @@
 ---
-layout: page
-sidebar: right
+layout: page3
+sidebar3: right
 subheadline: 
 title:  "World Cup in Korea"
 teaser: ""
