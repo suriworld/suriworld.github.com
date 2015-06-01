@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: page4
+sidebar4: right
 subheadline: 
 title:  "Worldcup Heroes"
 teaser: ""
