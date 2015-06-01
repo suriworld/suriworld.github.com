@@ -28,7 +28,7 @@ image:
 			    <div id="disqus_thread"></div>
 			    <script type="text/javascript">
 			        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-			        var disqus_shortname = '{{ site.disqus_shortname }}'; 
+			        var disqus_shortname = 'suriworld'; 
 			        var disqus_identifier = '{{ page.url }}';
 
 			        /* * * DON'T EDIT BELOW THIS LINE * * */
